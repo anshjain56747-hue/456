@@ -202,7 +202,7 @@ const Components = {
                   </div>
                   <div class="detail-row">
                     <span class="detail-label">STRENGTH:</span>
-                    <span class="detail-val">Warehouse &amp; Logistics</span>
+                    <span class="detail-val">Seller Ops &amp; B2B E-commerce</span>
                   </div>
                   <div class="detail-row">
                     <span class="detail-label">STATUS:</span>
@@ -323,9 +323,9 @@ const Components = {
               <h3 class="timeline-degree">${esc(edu.degree)}</h3>
               <span class="timeline-badge">${esc(edu.duration)}</span>
             </div>
-            <div class="timeline-institution">${esc(edu.institution)} &bull; <span class="timeline-loc">${esc(edu.location)}</span></div>
+            <div class="timeline-institution">${esc(edu.institution)}${edu.location ? ` &bull; <span class="timeline-loc">${esc(edu.location)}</span>` : ""}</div>
           </div>
-          <p class="timeline-details">${esc(edu.details)}</p>
+          ${edu.details ? `<p class="timeline-details">${esc(edu.details)}</p>` : ""}
           ${highlights}
         </div>
       </div>`;
@@ -383,7 +383,7 @@ const Components = {
           <div class="section-header">
             <span class="section-tag">03. EXPERIENCE</span>
             <h2 class="section-title">Work Experience</h2>
-            <p class="section-subtitle">Hands-on internships in warehouse and e-commerce operations, plus leadership roles in college societies.</p>
+            <p class="section-subtitle">Hands-on experience in B2B e-commerce operations and seller management, plus leadership roles in college societies.</p>
           </div>
 
           <h3 class="exp-group-title">INTERNSHIPS</h3>
@@ -441,7 +441,7 @@ const Components = {
             <div class="intern-projects-header-left">
               <span class="section-tag">04. WORK HIGHLIGHTS</span>
               <h2 class="intern-projects-main-heading">KEY WORK AREAS</h2>
-              <p class="intern-projects-subtext">The main responsibilities I took ownership of during internships and as Operations Head of a college club.</p>
+              <p class="intern-projects-subtext">The main responsibilities I took ownership of during my internship and as Head of Operations of a college society.</p>
             </div>
           </div>
           <div class="intern-projects-3plus2-grid">
@@ -563,7 +563,7 @@ const Components = {
             <div class="section-header-left">
               <span class="section-tag">05. PROJECTS</span>
               <h2 class="section-title">Featured Projects</h2>
-              <p class="section-subtitle">Practical work in warehouse operations, seller coordination and event logistics.</p>
+              <p class="section-subtitle">Practical work in seller onboarding, e-commerce operations and society event operations.</p>
             </div>
             <div class="carousel-controls-desktop">
               <button class="carousel-btn prev-btn" id="carouselPrev" aria-label="Previous project">${Icons.chevronLeft}</button>
@@ -624,7 +624,7 @@ const Components = {
           <div class="section-header">
             <span class="section-tag">06. CREDENTIALS</span>
             <h2 class="section-title">Certifications</h2>
-            <p class="section-subtitle">Certifications from HP Foundation across warehouse management, leadership, agile and digital skills.</p>
+            <p class="section-subtitle">LinkedIn Learning certifications in Excel analytics, supply chain forecasting, procurement analysis and business analysis.</p>
           </div>
           <div class="certifications-grid">${certsHtml}</div>
         </div>
@@ -671,7 +671,7 @@ const Components = {
     const cards = [
       { icon: "mail", label: "EMAIL", value: c.email, href: `mailto:${c.email}` },
       { icon: "phone", label: "PHONE", value: c.phone, href: `tel:${c.phone.replace(/[^+\d]/g, "")}` },
-      { icon: "linkedin", label: "LINKEDIN", value: "ansh-jain-25a2aa290", href: c.linkedin },
+      { icon: "linkedin", label: "LINKEDIN", value: "anshjain-25a2aa290", href: c.linkedin },
       { icon: "mapPin", label: "LOCATION", value: c.location, href: "#contact" }
     ];
 

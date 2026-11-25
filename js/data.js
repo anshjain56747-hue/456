@@ -8,96 +8,86 @@ const portfolioData = {
     name: "ANSH JAIN",
     monogram: "AJ",
     badgeLabel: "PORTFOLIO",
-    role: "MBA Business Analytics | Operations & Supply Chain Enthusiast",
+    role: "MBA Business Analytics | Supply Operations & Supply Chain",
     targetRoles: "MBA Business Analytics | Business Analyst | Operations | Supply Chain",
-    location: "Ghaziabad, India",
+    location: "India",
     email: "jainansh0234@gmail.com",
     phone: "+91-8587098674",
-    linkedin: "https://linkedin.com/in/ansh-jain-25a2aa290",
+    linkedin: "https://linkedin.com/in/anshjain-25a2aa290",
     github: "https://github.com/anshjain56747-hue",
     resumeUrl: "assets/Ansh_Jain_Resume.pdf",
     profilePhoto: "assets/profile.png",
     marqueeItems: [
       "MBA BUSINESS ANALYTICS",
       "SUPPLY CHAIN & LOGISTICS",
-      "WAREHOUSE OPERATIONS",
-      "OPERATIONS MANAGEMENT",
-      "LEADERSHIP ROLES",
-      "EXCEL • ERP • CRM • TMS",
-      "AI & ML IN SUPPLY CHAIN",
-      "EVENT & LOGISTICS MANAGEMENT"
+      "SUPPLY OPERATIONS",
+      "SELLER MANAGEMENT",
+      "B2B E-COMMERCE OPERATIONS",
+      "EXCEL • SQL • POWER BI • TABLEAU • PYTHON",
+      "DATA ANALYSIS & VISUALIZATION",
+      "REPORTING & DECISION-MAKING"
     ],
     heroStats: [
-      { value: 2, suffix: "+", label: "Internships" },
+      { value: 1, suffix: "", label: "Internship" },
       { value: 2, suffix: "", label: "Leadership Roles" },
-      { value: 6, suffix: "+", label: "Certifications" }
+      { value: 4, suffix: "", label: "Certifications" }
     ],
     floatingSkills: [
       { name: "Excel", type: "excel" },
-      { name: "Supply Chain", type: "sql" },
-      { name: "Operations", type: "powerbi" },
-      { name: "Analytics", type: "python" }
+      { name: "SQL", type: "sql" },
+      { name: "Power BI", type: "powerbi" },
+      { name: "Python", type: "python" }
     ]
   },
 
   about: {
     tag: "01. OVERVIEW",
     heading: "About Me",
-    subtitle: "Passionate MBA (Business Analytics) student focused on Operations, Supply Chain, Logistics and data-driven business decisions.",
-    summary: `A dedicated MBA (Business Analytics) student at Lovely Professional University and graduate from College of Vocational Studies, University of Delhi (CGPA 7.09). 
+    subtitle: "MBA (Business Analytics) student focused on supply operations, supply chain, logistics and data-driven business decisions.",
+    summary: `MBA (Business Analytics) student at Lovely Professional University, with a B.Voc in Material Management (Logistics, Materials & Supply Chain Management) from the College of Vocational Studies, University of Delhi.
 
-I have hands-on experience in warehouse operations, seller coordination, logistics planning and college-level operations leadership. I am actively looking for opportunities to apply my knowledge in Operations Management, Business Analytics, Supply Chain Management and Logistics while contributing to organizational growth.`,
+I recently interned at DropDash Technologies, a B2B e-commerce company, where I supported day-to-day operations, coordinated seller onboarding and helped resolve issues affecting orders and seller performance. It gave me a practical understanding of how sellers, orders and operations connect, and why tracking the right metrics drives decisions. I use Excel, SQL, Power BI, Tableau and Python to turn operational data into insight, and I am looking for opportunities in operations, supply chain and business analytics.`,
     highlights: [
-      "Hands-on experience in Warehouse Operations, Purchase Orders, GRN, E-way Bills and inventory record keeping.",
-      "Strong foundation in Supply Chain tools: ERP Systems, CRM, TMS, Excel (VLOOKUP, XLOOKUP, Pivot Tables).",
-      "Proven leadership as Operations Head of college club and active member of Management Society."
+      "Supported operations and seller management at DropDash Technologies, a B2B e-commerce company.",
+      "Toolkit of MS Excel, SQL, Power BI, Tableau and Python, backed by four LinkedIn Learning certifications in Excel analytics, supply chain and business analysis.",
+      "Head of Operations at Vociferous Vocationals (2024–25) and former member of the Management Society of CVS."
     ]
   },
 
   skills: {
     categories: [
       {
-        title: "Core Domain Skills",
-        icon: "code",
-        items: [
-          "Supply Chain Management",
-          "Logistics Management",
-          "Warehouse Management",
-          "Operations Management",
-          "Material Management",
-          "Purchase Management",
-          "Strategic Planning",
-          "Supply Chain Risk Analysis"
-        ]
-      },
-      {
-        title: "Technical & Tools",
+        title: "Tools & Platforms",
         icon: "tool",
         items: [
-          "MS Excel (VLOOKUP, XLOOKUP, Pivot)",
-          "Google Sheets",
-          "MS PowerPoint & Word",
-          "ERP Systems",
-          "CRM Software",
-          "TMS (Transportation Management)",
-          "Business Analytics in SCM",
-          "AI & ML in Supply Chain",
-          "IoT applications"
+          "MS Excel",
+          "SQL",
+          "Power BI",
+          "Tableau",
+          "Python"
         ]
       },
       {
-        title: "Soft Skills",
+        title: "Domain Skills",
+        icon: "code",
+        items: [
+          "Supply Operations",
+          "Supply Chain & Logistics",
+          "Seller Management",
+          "B2B E-commerce Operations"
+        ]
+      },
+      {
+        title: "Power Skills",
         icon: "chart",
         items: [
-          "Leadership",
-          "Communication",
-          "Problem-solving",
-          "Teamwork",
-          "Time Management",
-          "Critical Thinking",
-          "Decision-making",
-          "Presentation Skills",
-          "Adaptability"
+          "Data Analysis",
+          "Data Visualization",
+          "Reporting",
+          "Problem Solving",
+          "Decision-Making",
+          "Team Management",
+          "Communication"
         ]
       }
     ]
@@ -107,95 +97,73 @@ I have hands-on experience in warehouse operations, seller coordination, logisti
     {
       degree: "MBA – Business Analytics",
       institution: "Lovely Professional University",
-      duration: "2026 – 2028",
-      location: "India",
-      details: "Post Graduation focusing on Business Analytics, Operations and Supply Chain.",
-      highlights: [
-        "Specialization in Business Analytics",
-        "Focus areas: Operations, Supply Chain & Logistics Management"
-      ]
-    },
-    {
-      degree: "Graduation",
-      institution: "College of Vocational Studies, University of Delhi",
-      duration: "2023 – 2026",
-      location: "Delhi, India",
-      details: "CGPA: 7.09",
-      highlights: [
-        "Active involvement in college societies and leadership roles",
-        "Strong academic foundation with practical exposure"
-      ]
-    },
-    {
-      degree: "Intermediate (+2)",
-      institution: "Ryan International School, Ghaziabad",
-      duration: "2022 – 2023",
-      location: "Ghaziabad",
-      details: "Percentage: 84.4%",
+      duration: "Aug 2026 – Aug 2028",
+      location: "Phagwara, Punjab",
+      details: "Post graduation in Business Analytics.",
       highlights: []
     },
     {
-      degree: "Matriculation",
-      institution: "Ryan International School, Ghaziabad",
+      degree: "B.Voc – Material Management",
+      institution: "College of Vocational Studies, University of Delhi",
+      duration: "Aug 2023 – Jul 2026",
+      location: "Delhi",
+      details: "Logistics, Materials & Supply Chain Management.",
+      highlights: []
+    },
+    {
+      degree: "Senior Secondary (Class XII)",
+      institution: "Ryan International School",
+      duration: "2022 – 2023",
+      location: "",
+      details: "",
+      highlights: []
+    },
+    {
+      degree: "Secondary (Class X)",
+      institution: "Ryan International School",
       duration: "2020 – 2021",
-      location: "Ghaziabad",
-      details: "Percentage: 85.2%",
+      location: "",
+      details: "",
       highlights: []
     }
   ],
 
   experience: [
     {
-      role: "Operations Intern",
-      company: "DropDash Technologies Private Ltd.",
-      duration: "20 Feb 2026 – 19 May 2026",
-      location: "Operations & Seller Team",
+      role: "Operations & Seller Onboarding Intern",
+      company: "DropDash Technologies Pvt Ltd",
+      duration: "Feb 2026 – May 2026",
+      location: "Noida",
       type: "Internship",
-      description: "Worked closely with the operations and seller team on order fulfillment and seller onboarding.",
+      description: "Worked within the operations team of a B2B e-commerce company on day-to-day operations and seller management.",
       bullets: [
-        "Coordinated with sellers for timely pickup and dispatch of orders.",
-        "Supported the operations department in day-to-day logistics activities.",
-        "Improved communication skills while onboarding e-commerce sellers."
+        "Supported day-to-day operations and seller management for a B2B e-commerce company.",
+        "Coordinated seller onboarding and helped resolve issues affecting orders and seller performance.",
+        "Built a practical understanding of how sellers, orders and operations connect, and why tracking the right metrics drives decisions."
       ]
     },
     {
-      role: "Warehouse Operations Intern",
-      company: "Anitix Logistics Pvt Ltd.",
-      duration: "7 Jan 2026 – 7 Feb 2026",
-      location: "Warehouse Operations",
-      type: "Internship",
-      description: "Gained hands-on experience in complete warehouse operations and documentation.",
-      bullets: [
-        "Maintained records of goods stored, created Purchase Orders, Goods Receipt Notes (GRN) and E-way Bills.",
-        "Prepared credit notes and handled paperwork required when receiving orders from distributors.",
-        "Performed regular warehouse checks including temperature monitoring.",
-        "Strengthened MS Excel skills – VLOOKUP, XLOOKUP, Pivot Tables."
-      ]
-    },
-    {
-      role: "Operations Head",
-      company: "VV – Vociferous Vocational (College Club)",
-      duration: "2024 – 2025",
+      role: "Head of Operations",
+      company: "VV – Vociferous Vocationals",
+      duration: "Jul 2024 – Jul 2025",
       location: "College of Vocational Studies",
       type: "Leadership",
-      description: "Led operations and logistics for college events and workshops.",
+      description: "Led the operations and activities of the vocational society.",
       bullets: [
-        "Collaborated with various teams to organize events and workshops, enhancing student engagement.",
-        "Managed all Logistics and Supply Chain Operations during events.",
-        "Applied classroom knowledge of operations in real college-scale activities."
+        "Led the operations and activities of the vocational society, driving initiatives that contributed to student and societal growth.",
+        "Collaborated with multiple teams to organize events and workshops, increasing student engagement."
       ]
     },
     {
       role: "Member",
-      company: "M.SOC – The Management Society of CVS",
+      company: "M.Soc – The Management Society of CVS",
       duration: "2023 – 2024",
       location: "College of Vocational Studies",
       type: "Leadership",
-      description: "Active member contributing to marketing and logistics of society events.",
+      description: "Member of the college management society.",
       bullets: [
-        "Handled marketing of events and supported logistics requirements.",
-        "Enhanced teamwork and leadership skills through active participation.",
-        "Contributed to overall student engagement initiatives."
+        "Contributed to the planning and execution of management-related events.",
+        "Built teamwork and leadership skills through active participation in society activities."
       ]
     }
   ],
@@ -203,35 +171,24 @@ I have hands-on experience in warehouse operations, seller coordination, logisti
   internshipProjects: [
     {
       id: "01",
-      title: "WAREHOUSE OPERATIONS & DOCUMENTATION",
-      company: "Anitix Logistics Pvt Ltd.",
-      description: "End-to-end warehouse processes including inventory records, Purchase Orders, GRN, E-way Bills and temperature compliance checks.",
+      title: "SELLER ONBOARDING & ISSUE RESOLUTION",
+      company: "DropDash Technologies Pvt Ltd",
+      description: "Coordinated seller onboarding for a B2B e-commerce company and helped resolve issues affecting orders and seller performance.",
       impact: [
-        "Handled complete documentation cycle for incoming goods",
-        "Maintained accurate inventory and temperature records",
-        "Mastered Excel tools (VLOOKUP, XLOOKUP, Pivot) for operational reporting"
+        "Supported day-to-day operations and seller management",
+        "Helped resolve issues affecting orders and seller performance",
+        "Learned why tracking the right metrics drives decisions"
       ]
     },
     {
       id: "02",
-      title: "SELLER COORDINATION & ORDER FULFILLMENT",
-      company: "DropDash Technologies",
-      description: "Coordinated with e-commerce sellers for timely pickup and dispatch while supporting operations team.",
+      title: "SOCIETY OPERATIONS & EVENT LEADERSHIP",
+      company: "Vociferous Vocationals (VV)",
+      description: "Led the operations and activities of the vocational society as Head of Operations, organizing events and workshops with multiple teams.",
       impact: [
-        "Improved seller communication and onboarding process",
-        "Ensured timely pickup and dispatch of orders",
-        "Gained practical exposure to last-mile logistics operations"
-      ]
-    },
-    {
-      id: "03",
-      title: "EVENT LOGISTICS & OPERATIONS LEADERSHIP",
-      company: "Vociferous Vocational (VV Club)",
-      description: "Led logistics and supply chain operations for multiple college events and workshops as Operations Head.",
-      impact: [
-        "Managed complete logistics for college-scale events",
-        "Coordinated multi-team collaboration for successful execution",
-        "Applied theoretical knowledge of operations management in real scenarios"
+        "Drove initiatives that contributed to student and societal growth",
+        "Collaborated with multiple teams on events and workshops",
+        "Increased student engagement"
       ]
     }
   ],
@@ -239,40 +196,27 @@ I have hands-on experience in warehouse operations, seller coordination, logisti
   projects: [
     {
       id: "p1",
-      title: "Warehouse Process Optimization",
-      category: "Operations & Logistics",
-      tools: ["MS Excel", "Documentation", "Process Mapping"],
-      description: "Documented and streamlined warehouse processes including PO, GRN, E-way Bills and inventory tracking during internship at Anitix Logistics.",
+      title: "Seller Onboarding & Operations Support",
+      category: "B2B E-commerce Operations",
+      tools: ["Seller Management", "Operations", "Reporting"],
+      description: "Supported day-to-day operations and seller management at DropDash Technologies, coordinating seller onboarding and resolving issues that affected orders and seller performance.",
       highlights: [
-        "Complete documentation workflow",
-        "Temperature & compliance checks",
-        "Excel-based reporting"
+        "Seller onboarding coordination",
+        "Order and seller issue resolution",
+        "Metric-driven decision making"
       ],
       link: "#"
     },
     {
       id: "p2",
-      title: "Seller Onboarding & Dispatch Coordination",
-      category: "E-commerce Operations",
-      tools: ["Communication", "CRM basics", "Operations"],
-      description: "Supported operations and seller team at DropDash by coordinating pickups, dispatches and onboarding new e-commerce sellers.",
-      highlights: [
-        "Seller coordination",
-        "Timely order fulfillment",
-        "Soft-skill development"
-      ],
-      link: "#"
-    },
-    {
-      id: "p3",
-      title: "College Event Logistics Management",
+      title: "Vocational Society Operations",
       category: "Leadership & Operations",
-      tools: ["Planning", "Team Coordination", "Logistics"],
-      description: "As Operations Head of Vociferous Vocational, planned and executed logistics for multiple events and workshops.",
+      tools: ["Planning", "Team Coordination", "Events"],
+      description: "As Head of Operations of Vociferous Vocationals, led the society's operations and activities and organized events and workshops in collaboration with multiple teams.",
       highlights: [
-        "End-to-end event logistics",
-        "Multi-team coordination",
-        "Leadership experience"
+        "Events and workshops",
+        "Multi-team collaboration",
+        "Higher student engagement"
       ],
       link: "#"
     }
@@ -280,64 +224,45 @@ I have hands-on experience in warehouse operations, seller coordination, logisti
 
   certifications: [
     {
-      name: "Warehouse Management",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/warehouse-management.png",
+      name: "Excel Data Analysis for Supply Chain: Forecasting",
+      issuer: "LinkedIn Learning",
+      year: "Oct 2026",
+      image: "",
       credential: ""
     },
     {
-      name: "Agile Project Management",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/agile-project-management.png",
+      name: "Excel Business Intelligence: Power Pivot, DAX and Data Modeling",
+      issuer: "LinkedIn Learning",
+      year: "Oct 2026",
+      image: "",
       credential: ""
     },
     {
-      name: "AI for Beginners",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/ai-for-beginners.png",
+      name: "Business Analysis: Essential Tools and Techniques",
+      issuer: "LinkedIn Learning",
+      year: "Oct 2026",
+      image: "",
       credential: ""
     },
     {
-      name: "Introduction to Digital Business Skills",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/introduction-to-digital-business-skills.png",
-      credential: ""
-    },
-    {
-      name: "Effective Leadership",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/effective-leadership.png",
-      credential: ""
-    },
-    {
-      name: "Selling Online",
-      issuer: "HP Foundation",
-      year: "2025",
-      image: "assets/certificates/selling-online.png",
+      name: "Excel Supply Chain Analysis: Solving Procurement Problems",
+      issuer: "LinkedIn Learning",
+      year: "Sep 2026",
+      image: "",
       credential: ""
     }
   ],
 
   extracurricular: [
     {
-      title: "Operations Head – Vociferous Vocational (VV)",
-      role: "Operations Head (2024–2025)",
-      description: "Led logistics and supply chain operations for college events and workshops. Collaborated with multiple teams to enhance student engagement."
+      title: "Head of Operations – Vociferous Vocationals (VV)",
+      role: "Head of Operations (Jul 2024 – Jul 2025)",
+      description: "Led the operations and activities of the vocational society and collaborated with multiple teams to organize events and workshops, increasing student engagement."
     },
     {
-      title: "Member – M.SOC (Management Society of CVS)",
-      role: "Member (2023–2024)",
-      description: "Contributed to marketing and logistics of society events. Actively participated in management and business strategy activities."
-    },
-    {
-      title: "Event Participation & Workshops",
-      role: "Participant",
-      description: "Participated in various management and business strategy events at CVS. Engaged in team-building exercises, leadership programs and workshops."
+      title: "Member – M.Soc (The Management Society of CVS)",
+      role: "Member (2023 – 2024)",
+      description: "Contributed to the planning and execution of management-related events and built teamwork and leadership skills."
     }
   ],
 
@@ -346,8 +271,8 @@ I have hands-on experience in warehouse operations, seller coordination, logisti
     subtitle: "Open to opportunities in Business Analytics, Operations, Supply Chain and Logistics. Feel free to reach out for internships, projects or collaborations.",
     email: "jainansh0234@gmail.com",
     phone: "+91-8587098674",
-    linkedin: "https://linkedin.com/in/ansh-jain-25a2aa290",
+    linkedin: "https://linkedin.com/in/anshjain-25a2aa290",
     github: "https://github.com/anshjain56747-hue",
-    location: "Ghaziabad, India"
+    location: "India"
   }
 };
