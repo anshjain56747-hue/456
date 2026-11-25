@@ -10,7 +10,7 @@ const portfolioData = {
     badgeLabel: "PORTFOLIO",
     role: "MBA Business Analytics | Supply Operations & Supply Chain",
     targetRoles: "MBA Business Analytics | Business Analyst | Operations | Supply Chain",
-    location: "India",
+    location: "Ghaziabad",
     email: "jainansh0234@gmail.com",
     phone: "+91-8587098674",
     linkedin: "https://linkedin.com/in/anshjain-25a2aa290",
@@ -273,6 +273,6 @@ I recently interned at DropDash Technologies, a B2B e-commerce company, where I 
     phone: "+91-8587098674",
     linkedin: "https://linkedin.com/in/anshjain-25a2aa290",
     github: "https://github.com/anshjain56747-hue",
-    location: "India"
+    location: "Ghaziabad"
   }
 };
